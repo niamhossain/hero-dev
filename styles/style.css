@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1600px;
+    height: 837px;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo{
+    font-size: 45;
+    font-weight: 800;
+}
+header{
+    background-color: #dbc6b7;
+    width: 100vw;
+}
+nav div {
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+}
+nav{
+    margin: 50px auto;
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div ul{
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+.orangify{
+    color: #FD6E0A;
+}
+.btn{
+    padding: 18px 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 20;
+    font-weight: bold;
+}
