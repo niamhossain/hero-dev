@@ -6,20 +6,25 @@
 body{
     width: 1600px;
     height: 837px;
+    background-color: #FFF8F3;
 }
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 .logo{
-    font-size: 45;
-    font-weight: 800;
+    font-size: 45px;
 }
 header{
-    background-color: #dbc6b7;
-    width: 100vw;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    text-align: left;
+
 }
-nav div {
+#banner {
     display: flex;
     text-decoration: none;
     gap: 20px;
@@ -36,6 +41,7 @@ nav div ul{
     display: flex;
     gap: 51px;
     align-items: center;
+    color: #474747;
 }
 .orangify{
     color: #FD6E0A;
@@ -46,6 +52,47 @@ nav div ul{
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
-    font-size: 20;
+    font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+#banner{
+    margin: 46px 38px 0px 230px;
+        display: flex;
+    justify-content: space-between;
+}
+header section h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 182px;
+}
+header section h1{
+    font-size: 85px;
+    padding: 5px 0px;
+}
+header section p{
+    font-size: 18px;
+    color: #474747;
+    margin: 20px 0px 30px 0px;
+    width: 585px;
+    color: #474747;
+}
+#btn2{
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+body header div img{
+    align-items: flex-end;
+}   
+.banner-img{
+    margin: 111px 38px 0px 163px;
+    width: 584px;
+    height: 676px;
+    vertical-align: bottom;
 }
