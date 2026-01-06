@@ -6,7 +6,6 @@
 body{
     width: 1600px;
     height: 837px;
-    background-color: #FFF8F3;
 }
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -95,4 +94,99 @@ body header div img{
     width: 584px;
     height: 676px;
     vertical-align: bottom;
+}
+.info{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.info p{
+    padding-bottom: 0;
+}
+#about-me{
+        background-color: #FFF8F3;
+          width: 71%;
+          max-width: 1140px;
+          margin: 80px 230px 0px 230px;
+          padding: 131px 156px;
+          text-align: center;
+}
+.about h1,p{
+    padding-bottom: 30px;
+}
+.mid-font{
+    font-size: 35px;
+    padding: 0px 0px 30px 0px;
+}
+.experience{
+    margin: 130px 230px;
+    text-align: center;
+}
+.text-font{
+    font-size: 18;
+    padding-bottom: 50;
+    color: #474747;
+    padding: 0px 156px 50px 156px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.cards{
+    width: 267px;
+    height: 377px;
+    border: 1px;
+    box-shadow: 0px 0px 3px 0px rgb(219, 218, 218);
+    text-align: center;
+    padding: 30px 33px 30px 30px;
+    align-items: center;
+}
+.cards p{
+    padding-top: 20px;
+}
+#icon-align{
+    margin: 30px 193px 30px 30px;
+}
+.hr-wid{
+    width: 90%;
+}
+
+#summary-container{
+    width: 71%;
+    max-width: 1140;
+    margin: 113px 230px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.summary{
+    max-width: 50%;
+    gap: 24px;
+    text-align: left;
+}
+.summary h1{
+    font-size: 35px;
+}
+.summary h2{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.summary h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #757575;
+}
+.summary p{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.align-head{
+    text-align: center;
+}
+.align-obj{
+    margin: 30px auto;
+    margin-bottom: 83px;
 }
