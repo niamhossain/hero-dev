@@ -136,28 +136,30 @@ body header div img{
 .cards{
     width: 267px;
     height: 377px;
-    border: 1px;
-    box-shadow: 0px 0px 3px 0px rgb(219, 218, 218);
-    text-align: center;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.062);
+    text-align: left;
     padding: 30px 33px 30px 30px;
     align-items: center;
 }
 .cards p{
     padding-top: 20px;
+    font-size: 16px;
+    color: #757575;
+}
+.cards img{
+    max-width: 44px;
+
 }
 #icon-align{
-    margin: 30px 193px 30px 30px;
-}
-.hr-wid{
-    width: 90%;
+    margin-bottom: 15px;
 }
 
 #summary-container{
     width: 71%;
     max-width: 1140;
-    margin: 113px 230px;
+    margin: 113px 230px 50px;
     display: flex;
-    flex-wrap: wrap;
+    gap: 24px;
 }
 .summary{
     max-width: 50%;
@@ -186,7 +188,6 @@ body header div img{
 .align-head{
     text-align: center;
 }
-.align-obj{
-    margin: 30px auto;
-    margin-bottom: 83px;
+.area{
+    text-align: center;
 }
