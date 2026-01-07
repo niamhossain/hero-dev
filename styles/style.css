@@ -57,7 +57,7 @@ nav div ul{
 }
 .btn:hover{
     transform: scale(0.8);
-    transition: 1s;
+    transition: 0.35s;
 }
 #banner{
     margin: 46px 38px 0px 230px;
@@ -190,4 +190,35 @@ body header div img{
 }
 .area{
     text-align: center;
+}
+#contact{
+    width: 1600px;
+    background-color: #FFF8F3;
+}
+.contact-container{
+    padding: 130px 230px 130px 230px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    gap: 117px;
+    margin-top: 113px;
+}
+.box{
+    background-color: #ffffff;
+    color: #757575;
+    width: 461px;
+    border: 0px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px #75757528;
+}
+.msg-info input{
+               padding: 18px 0px 18px 30px;
+               vertical-align: text-top;
+}
+#no-pad{
+    padding: 18px 35px;
 }
